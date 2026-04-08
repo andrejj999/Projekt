@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontaktujte nás pre otázky o Linux distribúciách">
+    <meta name="keywords" content="kontakt linux, pomoc s distribúciou, technická podpora">
+    <meta name="author" content="Andrej">
+    <title>LinuxDistro - Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                
+                <span class="logo-text">LinuxDistro</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Domov</a></li>
+                <li class="nav-item"><a href="distributions.html" class="nav-link">Distribúcie</a></li>
+                <li class="nav-item"><a href="comparison.html" class="nav-link">Porovnanie</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1>Kontaktujte nás</h1>
+        
+        <div class="contact-layout">
+         
+            <section class="contact-info">
+                <h2>Kontaktné informácie</h2>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@linuxdistro.sk">info@linuxdistro.sk</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Telefón</h3>
+                    <p><a href="tel:+421900123456">+421 900 123 456</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Podpora</h3>
+                    <p><a href="mailto:podpora@linuxdistro.sk">podpora@linuxdistro.sk</a></p>
+                </div>
+            </section>
+
+            
+            <section class="contact-form-section">
+                <h2>Napíšte nám</h2>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Meno *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Predmet</label>
+                        <select id="subject" name="subject">
+                            <option value="">Vyberte predmet</option>
+                            <option value="general">Všeobecná otázka</option>
+                            <option value="technical">Technická podpora</option>
+                            <option value="distro">Odporúčanie distribúcie</option>
+                            <option value="other">Iné</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Správa *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="privacy" name="privacy" required>
+                        <label for="privacy">Súhlasím so spracovaním osobných údajov *</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Odoslať správu</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>O nás</h4>
+                <p>Poskytujeme aktuálne informácie o Linux distribúciách.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Rýchle odkazy</h4>
+                <ul>
+                    <li><a href="index.html">Domov</a></li>
+                    <li><a href="distributions.html">Distribúcie</a></li>
+                    <li><a href="comparison.html">Porovnanie</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <p>Email: <a href="mailto:info@linuxdistro.sk">info@linuxdistro.sk</a></p>
+                <p>Telefón: <a href="tel:+421900123456">+421 900 123 456</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LinuxDistro. Všetky práva vyhradené.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
